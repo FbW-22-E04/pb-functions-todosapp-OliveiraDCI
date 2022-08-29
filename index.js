@@ -40,7 +40,7 @@ class ToDoStore {
     } else {
       console.log("Todo List:");
       for (let item of this.toDos) {
-        console.log(`${this.toDos.indexOf(item)}- ${item}`);
+        console.log(`${this.toDos.indexOf(item) + 1}- ${item}`);
       }
     }
   }
